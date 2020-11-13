@@ -17,7 +17,7 @@ SELECT * FROM employee;
 
 /* 4 */
 UPDATE employee
-SET SALARY = 350000
+SET Salary = 350000
 WHERE Code = 'e1';
 
 SELECT * FROM employee;
