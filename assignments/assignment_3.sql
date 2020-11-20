@@ -6,7 +6,6 @@ CREATE TABLE employeeDetails (
     PRIMARY KEY (empId)
 );
 
-
 CREATE TABLE employee (
     Id INTEGER,
     salary INTEGER,
