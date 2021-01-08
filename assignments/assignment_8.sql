@@ -15,7 +15,7 @@ INSERT INTO employee VALUES
     (256, 'James', '1995-07-23', 'Clerk', 120000);
 
 /* 3 */
-SELECT SUM(Salary) FROM employee WHERE Desgn='Clerk';
+SELECT SUM(Salary) AS 'Total_Salary' FROM employee WHERE Desgn='Clerk';
 
 /* 4 */
 SELECT MAX(Salary) AS 'Max_Salary' FROM employee;
